@@ -1,0 +1,128 @@
+:root {
+    --darkblue: #2b5170;
+    --wafer: #e2d3d0;
+    --grey: #717378;
+    --yellow: #FFF8A7; 
+    --white: #F2F0EB;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: var(--darkblue);
+    color: var(--yellow);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+h1 {
+    margin: 30px;
+    color: var(--yellow);
+    font-size: x-large;
+}
+
+
+ul {
+    list-style: none;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+ul li {
+    display: inline;
+    margin: 5px;
+    padding-right: 10px;
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 40px;
+}
+
+.container {
+    width: 30%;
+    /* Set the width of the container */
+    height: 600px;
+    margin: 1%;
+    border: 3px solid var(--darkblue);
+    /* Add a border for visualization */
+    padding: 4px;
+    border-style: dashed;
+    float: left;
+    position: relative;
+    transition-duration: 1s;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.container:hover {
+    transform: rotate(45deg);
+    cursor: grab;
+}
+
+.container:active {
+    transform: scaleY(50%);
+    cursor: grabbing;
+}
+
+.container h2 {
+    position: absolute;
+    top: -40px;
+    /* Adjust the distance above the container */
+    width: 100%;
+    /* Make it span the width of the container */
+    color: var(--darkblue);
+    /* Text color for better visibility */
+    text-align: center;
+    /* Center text within the h2 */
+    margin: 0;
+    /* Remove default margin */
+    font-size: larger;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container2 {
+    width: 30%;
+    height: 200px;
+    margin: 1%;
+    padding: 4px;
+    position: relative;
+    text-align: center;
+    float: left;
+    flex-wrap: wrap;
+}
+
+.container2 p {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--darkblue);
+}
+
+.secondtitle {
+    justify-content: center;
+    display: flex;
+}
+
+.second-text {
+    text-align: center;
+}
