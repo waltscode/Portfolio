@@ -2,7 +2,7 @@
     --darkblue: #2b5170;
     --wafer: #e2d3d0;
     --grey: #717378;
-    --yellow: #FFF8A7; 
+    --yellow: #FFF8A7;
     --white: #F2F0EB;
 }
 
@@ -55,6 +55,10 @@ ul li:active {
     cursor: grabbing;
 }
 
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
 
 main {
     margin-top: 40px;
@@ -150,7 +154,7 @@ main {
 
 .workscontainer2 {
     display: block;
-    height: 800px; 
+    height: 800px;
     width: 50%;
 }
 
@@ -159,7 +163,7 @@ section {
 }
 
 .large-image-container {
-    flex:1;
+    flex: 1;
     margin-right: 30px;
     margin: 25px;
     border-style: dashed;
@@ -170,9 +174,9 @@ section {
 }
 
 .large-image {
-    width:100%;
+    width: 100%;
     height: 100%;
-    display: block;    
+    display: block;
 }
 
 .small-image-container {
@@ -210,9 +214,9 @@ section {
 .overlay-text {
     font-size: 40px;
     font-family: cursive;
-    font-weight: bolder; 
-    text-align: center;  
-    color: var(--wafer);  
+    font-weight: bolder;
+    text-align: center;
+    color: var(--wafer);
 }
 
 .overlay:hover {
