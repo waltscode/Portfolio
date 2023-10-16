@@ -200,3 +200,7 @@ main {
     text-align: center;  
     color: var(--wafer);  
 }
+
+.overlay:hover {
+    opacity: 0;
+}
